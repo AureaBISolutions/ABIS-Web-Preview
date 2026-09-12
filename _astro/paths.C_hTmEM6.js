@@ -1,0 +1,1 @@
+var e=`/ABIS-Web-Preview/`.replace(/\/$/,``);function t(t){return!e||!t.startsWith(`/`)||t.startsWith(`//`)||t===e||t.startsWith(`${e}/`)||t.startsWith(`${e}?`)||t.startsWith(`${e}#`)?t:`${e}${t}`}function n(t){return e&&(t===e||t.startsWith(`${e}/`))?t.slice(e.length)||`/`:t}export{t as n,n as t};

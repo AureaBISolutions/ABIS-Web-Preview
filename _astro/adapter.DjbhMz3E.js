@@ -1,0 +1,1 @@
+async function e(e,t=!1){return await new Promise(e=>setTimeout(e,450)),t?{ok:!1,action:e,simulated:!0,message:`Error de demostración. Puedes reintentar; lo que escribiste se conserva.`}:{ok:!0,action:e,simulated:!0}}export{e as t};
